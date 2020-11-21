@@ -254,7 +254,6 @@ html {
 }
 
 .app-header {
-	width: 1707px;
 	margin: 0 auto;
 }
 
@@ -265,6 +264,7 @@ html {
 	align-items: center;
 	flex-direction: column;
 	padding-bottom: 50px;
+	justify-content: center;
 }
 
 .app-header-title {
@@ -1452,8 +1452,8 @@ html {
 
 .start-text {
 	text-transform: capitalize;
-	width: 800px;
-	font-size: 48px;
+	width: 700px;
+	font-size: 40px;
 	line-height: 60px;
 	color: #fefefe;
 	font-weight: 400;
@@ -1467,12 +1467,12 @@ html {
 }
 
 .input-input {
-	width: 500px;
+	width: 480px;
 	border: none;
 	border-radius: 50px;
 	outline: none;
 	background-color: white;
-	font-size: 30px;
+	font-size: 25px;
 	color: #a6a6a6;
 	font-weight: 400;
 	font-family: "Roboto";
@@ -1487,4 +1487,5 @@ html {
 	position: absolute;
 	right: 40px;
 	top: 20px;
+	width: 25px;
 }
