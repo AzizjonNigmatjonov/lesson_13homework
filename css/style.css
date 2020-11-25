@@ -753,12 +753,12 @@ html {
 .nisha-triangle {
 	position: relative;
 	right: 5px;
-	width: 70px;
-	height: 60px;
+	width: 0;
+	height: 0;
 	top: 130px;
-	background-color: #07dbee;
-	border-top-left-radius: 100%;
-	border-top-right-radius: 100%;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-bottom: 60px solid #07dbee;
 }
 
 .nisha-img {
@@ -773,7 +773,7 @@ html {
 	height: 150px;
 	background-color: #07dbee;
 	bottom: 145px;
-	left: 30px;
+	left: -3px;
 	position: relative;
 }
 
@@ -816,9 +816,9 @@ html {
 	width: 70px;
 	height: 60px;
 	top: 130px;
-	background-color: #07dbee;
-	border-top-left-radius: 100%;
-	border-top-right-radius: 100%;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-bottom: 60px solid #07dbee;
 }
 
 .sachin-img {
@@ -833,7 +833,7 @@ html {
 	height: 150px;
 	background-color: #07dbee;
 	bottom: 145px;
-	left: 30px;
+	left: -3px;
 	position: relative;
 }
 
